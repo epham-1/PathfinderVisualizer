@@ -1,0 +1,40 @@
+button{
+  background-color: rgb(41, 136, 126);
+  color: rgb(0, 0, 0);
+  width: 213.3px;
+  height: 50px;
+}
+button:hover{
+  background-color: rgb(54, 177, 164);
+}
+.cell{
+  outline:1px solid black;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-top: -4px;
+}
+
+.grid{
+  margin: 100px 300px 0px;
+}
+
+.cell-start{
+  background-color: green;
+}
+
+.cell-finish{
+  background-color: red;
+}
+
+.cell-wall{
+  background-color: gray;
+}
+
+.cell-visited {
+  background-color: greenyellow;
+}
+
+.cell-shortest-path{
+  background-color: orange;
+}
